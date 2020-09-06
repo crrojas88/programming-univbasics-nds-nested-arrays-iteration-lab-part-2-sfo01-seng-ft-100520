@@ -18,5 +18,5 @@ while count < src.count do
     low_temp  << lowest_temp_element
     count += 1
 end
-  p low_temp
+   low_temp
 end
