@@ -13,11 +13,9 @@ while count < src.length do
     if src[count][element_index] < lowest_temp_element
     lowest_temp_element = src[count][element_index]
   end
-    
-    end
-    
     low_temp  << lowest_temp_element
     element_index += 1
+    end
     
 end
 count += 1
